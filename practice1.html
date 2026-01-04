@@ -27,6 +27,22 @@
             justify-content: center;
             align-items: center;
         }
+        .cls4{
+            display:grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 100px;
+        }
+
+        #btn1:hover{
+            background: blue;
+        }
+
+        p::first-letter{
+            font-size: 30px;
+        }
+
+       
+
 
 
     </style>
@@ -36,11 +52,16 @@
     <div class="cls1">
         <button id="btn1">click me</button>
         <button id="btn2">click me 2</button>
+        <p>i went to ICBT at 2023</p>
     </div>
 
     <div class="cls2">
         <button id="btn3">click me 3</button>
         <button id="btn4">click me  4</button>
+    </div>
+    <div class="cls4">
+        <button id="btn5">click me5</button>
+        <button id="btn6">click me6</button>
     </div>
 </body>
 </html>
